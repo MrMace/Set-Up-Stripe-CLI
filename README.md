@@ -1,4 +1,4 @@
-````markdown
+
 # Stripe CLI Local Webhook Setup
 
 ### 1. Install Stripe CLI
