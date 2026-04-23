@@ -1,7 +1,7 @@
 ````markdown
 # Stripe CLI Local Webhook Setup
 
-## 1. Install Stripe CLI
+### 1. Install Stripe CLI
 
 ### Windows (PowerShell — via Scoop)
 ```powershell
@@ -11,15 +11,6 @@ scoop install stripe
 Or download the `.exe` directly:
 https://github.com/stripe/stripe-cli/releases/latest
 
-### Linux
-
-```bash
-curl -s https://packages.stripe.dev/api/security/keypair/stripe-cli-gpg/public | gpg --dearmor | sudo tee /usr/share/keyrings/stripe.gpg
-
-echo "deb [signed-by=/usr/share/keyrings/stripe.gpg] https://packages.stripe.dev/stripe-cli-debian-local stable main" | sudo tee /etc/apt/sources.list.d/stripe.list
-
-sudo apt update && sudo apt install stripe
-```
 
 ---
 
