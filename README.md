@@ -76,5 +76,3 @@ If you see failures or non-200 responses in the CLI, check your app logs.
 * Database not connected locally
 * Missing local config or credentials
 
-```
-```
